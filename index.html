@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Megrim|Poiret+One&display=swap" rel="stylesheet">
+    <title>Crystals Game</title>
+  </head>
+
+  <body>
+      <h1 class="text-center mt-2 mb-2">Crystals Collector</h1>
+
+    <main class="container">
+        <p id="instructions" class="row col-sm-12 col-lg-8 p-2">
+            You will be given a random number at the start of the game.
+            <br>
+            There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+            <br>
+            You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+            <br> 
+            The value of each crystal is hidden from you until you click on it.
+            <br>
+            Each time when the game starts, the game will change the values of each crystal.
+        </p>
+        <div class="row">
+        <p id="random-number" class="display-4 col-sm-12 col-lg-2 p-2"></p>
+        <p id="score" class="col-lg-2 col-sm-12 mx-lg-2 pt-2">Wins:
+            <br>
+            Losses:
+        </p>
+        </div>
+        <div class="row mb-2">
+            <img src="assets/images/firstcrys.jpg" class="m-1 img-fluid rounded">
+            <img src="assets/images/fifthcrys.jpg" class="m-1 img-fluid rounded">
+            <img src="assets/images/secondcrys.jpg" class="m-1 img-fluid rounded">
+            <img src="assets/images/sixthcrys.jpg" class="m-1 img-fluid rounded">
+        </div>
+        <div class="row">
+        <h6 class="col-lg-2 col-sm-12 p-2">Your total is:</h6>
+        </div>
+        <div class="row">
+            <p id="user-number" class="display-4 col-lg-2 col-sm-12 p-2"></p>
+            </div>
+            
+    
+
+    </main>
+
+    <script src="assets/javascript/game.js"></script>
+  </body>
+</html>

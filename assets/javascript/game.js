@@ -12,10 +12,10 @@ var userCount = 0;
 
 function begin(){
     randomNumber = Math.floor(Math.random() * 102) + 19;
-    console.log('this is the guessing number ' + randomNumber);
+    // console.log('guessing number is ' + randomNumber);
 
     num1 = Math.floor(Math.random() * 12) + 1;
-    console.log(num1);
+    // console.log('first crystal is ' + num1);
     var crystal1 = $("#num-1");
     crystal1.attr({
         "data-number": num1
@@ -23,7 +23,7 @@ function begin(){
     $("#num-1").append(crystal1);
 
     num2 = Math.floor(Math.random() * 12) + 1;
-    console.log(num2);
+    // console.log('second crystal is ' + num2);
     var crystal2 = $("#num-2");
     crystal2.attr({
          "data-number": num2
@@ -31,7 +31,7 @@ function begin(){
     $("#num-2").append(crystal2);
 
     num3 = Math.floor(Math.random() * 12) + 1;
-    console.log(num3);
+    // console.log('third crystal is ' + num3);
     var crystal3 = $("#num-3");
     crystal3.attr({
         "data-number": num3
@@ -39,7 +39,7 @@ function begin(){
     $("#num-3").append(crystal3);
 
     num4 = Math.floor(Math.random() * 12) + 1;
-    console.log(num4);
+    // console.log('fourth crystal is ' + num4);
     var crystal4 = $("#num-4");
     crystal4.attr({
         "data-number": num4
@@ -65,7 +65,6 @@ function restart() {
 begin()
 $(document).on("click", ".crystals", function () {
     var userCount = parseInt($(this).attr('data-number'));
-    // userCount = parseInt(userCount);
     user += userCount; 
     $("#user-total").text(" " + user);
 
@@ -81,16 +80,8 @@ $(document).on("click", ".crystals", function () {
         restart()
     };
 
-
-    console.log(user);
+    // console.log(user);
 
 })
-
-
-
-
-
-
-
 
 });

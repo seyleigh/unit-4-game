@@ -15,8 +15,19 @@ h1 {
 } */
 
 p, h6 {
-    background-image: radial-gradient(rgba(167, 66, 198, .4), rgba(50, 168, 166, .4), rgba(255, 168, 228, .5), rgba(70, 66, 198, .4), rgba(50, 168, 166, .4));
-    /* background-image: radial-gradient(rgba(167, 66, 198, .4), rgba(50, 168, 166, .4)); */
+    /* hypnotic */
+    /* background-image: radial-gradient(rgba(159, 66, 187, 0.3), rgba(50, 168, 166, .3), rgba(255, 168, 228, .3), rgba(70, 66, 198, .3), rgba(50, 168, 166, .3), rgba(167, 66, 198, .3), rgba(50, 168, 166, .3), rgba(255, 168, 228, .3), rgba(70, 66, 198, .3), rgba(50, 168, 166, 0)); */
+
+    /* green-blue */
+    /* background-image: radial-gradient(rgba(183,251,215,.5), rgba(161,240,218,.5), rgba(144,231,234,.5), rgba(131,217,242,.5), rgba(133,203,246,.5)); */
+
+    /* meh */
+    /* background-image: radial-gradient(rgba(253,183,186,.5), rgba(249,226,217,.5), rgba(177,219,209,.5), rgba(92,179,195,.5), rgba(20,42,90,.5)); */
+
+    /* subtle */
+    background-image: radial-gradient(rgba(235,194,217,.5), rgba(217,194,220,.5), rgba(199,194,223,.5), rgba(181,194,226,.5), rgba(163,194,229,.5));
+
+    
 }
 
 #instructions {

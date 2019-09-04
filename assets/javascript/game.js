@@ -17,33 +17,25 @@ function begin(){
     num1 = Math.floor(Math.random() * 12) + 1;
     // console.log('first crystal is ' + num1);
     var crystal1 = $("#num-1");
-    crystal1.attr({
-        "data-number": num1
-    });
+    crystal1.attr("data-number", num1);
     $("#num-1").append(crystal1);
 
     num2 = Math.floor(Math.random() * 12) + 1;
     // console.log('second crystal is ' + num2);
     var crystal2 = $("#num-2");
-    crystal2.attr({
-         "data-number": num2
-    });
+    crystal2.attr("data-number", num2);
     $("#num-2").append(crystal2);
 
     num3 = Math.floor(Math.random() * 12) + 1;
     // console.log('third crystal is ' + num3);
     var crystal3 = $("#num-3");
-    crystal3.attr({
-        "data-number": num3
-    });
+    crystal3.attr("data-number", num3);
     $("#num-3").append(crystal3);
 
     num4 = Math.floor(Math.random() * 12) + 1;
     // console.log('fourth crystal is ' + num4);
     var crystal4 = $("#num-4");
-    crystal4.attr({
-        "data-number": num4
-    });
+    crystal4.attr("data-number", num4);
     $("#num-4").append(crystal4); 
 
     $("#random-number").text(randomNumber);   

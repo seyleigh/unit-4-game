@@ -49,3 +49,9 @@ i {
         background-clip: text; 
         -webkit-text-fill-color:transparent;
 }
+
+@media screen and (max-width: 640px) {
+    i {
+        font-size: 40px;
+    }
+}

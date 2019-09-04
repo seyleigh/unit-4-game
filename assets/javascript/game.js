@@ -71,12 +71,14 @@ $(document).on("click", ".crystals", function () {
     if (user === randomNumber){
         wins++
         $("#win").text(wins);
+        alert('Look at you - math wiz.')
         restart()
     }
 
     else if (user > randomNumber){
         loss++
         $("#loss").text(loss)
+        alert('You dum.')
         restart()
     };
 

@@ -63,14 +63,26 @@ $(document).on("click", ".crystals", function () {
     if (user === randomNumber){
         wins++
         $("#win").text(wins);
-        alert('Look at you - math wiz.')
+        swal({
+            title: "Hooray",
+            text: "You won!",
+            icon: "success",
+            button: false,
+            timer: 3000
+          })
         restart()
     }
 
     else if (user > randomNumber){
         loss++
         $("#loss").text(loss)
-        alert('You dum.')
+        swal({
+            title: "Whoops!",
+            text: "You lost.",
+            icon: "error",
+            button: false,
+            timer: 3000
+          })
         restart()
     };
 
